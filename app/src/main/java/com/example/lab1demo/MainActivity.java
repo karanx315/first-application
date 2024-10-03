@@ -35,22 +35,22 @@ public class MainActivity extends AppCompatActivity {
         imageButton = findViewById(R.id.imageButton);
 
         btn1.setOnClickListener(view -> {
-            CharSequence text = "Hello toast from Parvathi";
+            CharSequence text = "Hello toast from Kapil";
             Toast.makeText(MainActivity.this, text, Toast.LENGTH_LONG).show();
         });
 
         btn2.setOnClickListener(view -> {
             String currentText = txt1.getText().toString();
-            if (!currentText.contains("Nair Parvathi")) {
-                txt1.setText(currentText + " Nair Parvathi");
+            if (!currentText.contains("Saini Kapil")) {
+                txt1.setText(currentText + " Saini Kapil");
             }
         });
 
         checkBox.setOnClickListener(view -> {
             if (checkBox.isChecked()) {
-                Toast.makeText(MainActivity.this, "Checkbox is checked!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Checkbox clicked!", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(MainActivity.this, "Checkbox is unchecked!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "unchecked!", Toast.LENGTH_SHORT).show();
             }
         });
 
