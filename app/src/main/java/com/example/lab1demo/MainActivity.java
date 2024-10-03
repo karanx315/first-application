@@ -35,14 +35,14 @@ public class MainActivity extends AppCompatActivity {
         imageButton = findViewById(R.id.imageButton);
 
         btn1.setOnClickListener(view -> {
-            CharSequence text = "Hello toast from Kapil";
+            CharSequence text = "Hello toast from KaranPreet";
             Toast.makeText(MainActivity.this, text, Toast.LENGTH_LONG).show();
         });
 
         btn2.setOnClickListener(view -> {
             String currentText = txt1.getText().toString();
-            if (!currentText.contains("Saini Kapil")) {
-                txt1.setText(currentText + " Saini Kapil");
+            if (!currentText.contains("KaranPreet Singh")) {
+                txt1.setText(currentText + " Singh KaranPreet");
             }
         });
 

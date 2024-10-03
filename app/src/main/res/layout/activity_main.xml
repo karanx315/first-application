@@ -95,7 +95,7 @@
         app:layout_constraintStart_toEndOf="@+id/radioButton"
         app:layout_constraintTop_toBottomOf="@+id/butChange"
         app:layout_constraintVertical_bias="0.366"
-        app:srcCompat="@drawable/imag" />
+        app:srcCompat="@drawable/arrow" />
 
     <EditText
         android:id="@+id/editTextText"
